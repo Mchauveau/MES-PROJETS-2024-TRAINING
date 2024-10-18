@@ -1,4 +1,4 @@
-# PROJET-2024
+# MES-PROJET-2024
 10 Projets 2024 pour entrainement
 
 Nous sommes le 18/10/2024 et j'ai demandé à CHATGPT de me générer 10 projets aléatoires.
