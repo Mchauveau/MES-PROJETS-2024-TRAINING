@@ -7,6 +7,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Style de la galerie */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes de largeur égale */
+    gap: 20px; /* Espace entre les images */
+    margin: 20px 0;
+}
+
+.gallery-item {
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%; /* L'image occupe toute la largeur de la colonne */
+    height: auto; /* Garder le ratio aspect */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Légère ombre pour un effet de relief */
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
 
 /* Body */
 body {
@@ -217,4 +241,73 @@ main > section {
 main > section.active-section {
     display: block;
     opacity: 1;
+}
+
+/* Style pour la section coordonnées */
+#contact {
+    padding: 20px;
+    background-color: #f7f7f7; /* Couleur de fond douce */
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #e55e3e; /* Couleur du lien (bleu) */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Style des icônes des réseaux sociaux */
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media h3 {
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.2em;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #e55e3e;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+/* Style pour la photo de profil */
+.profile-photo {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.profile-photo img {
+    width: 150px; /* Ajuste la taille selon tes préférences */
+    height: 150px;
+    border-radius: 50%; /* Rend les bords de l'image circulaires */
+    object-fit: cover; /* Assure que l'image occupe tout l'espace sans être déformée */
+    border: 3px solid #e55e3e; /* Optionnel : ajoute un contour autour de l'image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optionnel : une légère ombre pour donner de la profondeur */
 }
