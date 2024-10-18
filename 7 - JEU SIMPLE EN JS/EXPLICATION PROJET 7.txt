@@ -1,0 +1,1 @@
+Jeu simple en JavaScript Description : Un petit jeu (comme le jeu Snake, Tic-Tac-Toe, ou un jeu de devinettes). Technologies : JavaScript pur, HTML/CSS. Fonctionnalité supplémentaire : Sauvegarde des scores dans un fichier JSON côté serveur.

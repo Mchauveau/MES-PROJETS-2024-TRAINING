@@ -1,0 +1,2 @@
+Gestionnaire de livres (Book Tracker) Description : Une application où les utilisateurs peuvent suivre les livres qu'ils lisent, marquer les livres terminés et laisser des avis. Technologies : Python (Flask/Django) pour le backend, SQLite ou PostgreSQL pour la base de données, et React pour le frontend. Fonctionnalité supplémentaire : Intégrer une API comme Google Books pour récupérer des informations sur les livres.
+

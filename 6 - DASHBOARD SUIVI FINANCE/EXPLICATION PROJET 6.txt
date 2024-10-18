@@ -1,0 +1,1 @@
+Dashboard de suivi des finances personnelles Description : Un tableau de bord où les utilisateurs peuvent suivre leurs dépenses et revenus mensuels, avec des graphiques. Technologies : Python (Flask ou Django) pour le backend, JavaScript pour les graphiques (Chart.js, D3.js). Fonctionnalité supplémentaire : Ajouter une gestion des devises avec une API de taux de change.

@@ -1,0 +1,1 @@
+Analyseur de texte Description : Une application qui prend un texte en entrée et analyse les mots les plus fréquents, la longueur des phrases, les sentiments (positive/négative). Technologies : Python avec des librairies comme NLTK ou TextBlob pour le traitement du langage naturel. Fonctionnalité supplémentaire : Générer des visualisations avec matplotlib ou seaborn.
